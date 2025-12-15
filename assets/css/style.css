@@ -1,0 +1,124 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.Hero-IMG{
+	padding:45px 0 0px;
+	background-color:red;
+	/* border:2px solid yellow; */
+	overflow:hidden;
+	background:linear-gradient(
+	    rgb(218,51,40,0.7),
+	    rgb(218,51,45,0.7),
+	    rgb(218,51,45,0.7)
+	  ),
+	  url("../image/mob.jpg");
+	  background-size:cover;
+	  background-position:center;
+	  background-repeat:no-repeat;
+	  background-attachment:fixed;
+	
+}
+.container{
+	margin:0 auto;
+	width:1100px;
+	/* border:2px solid yellow; */
+
+}
+.row{
+	display:table;
+	width:100%;
+	clear:both;
+	
+}
+
+div[class^='col-']{
+	float:left;
+	padding:0 15px;
+	
+}
+.col-6{
+	width:calc(100% *6/12);
+}
+
+
+
+.align-right{
+	text-align:right;
+}
+.align-left{
+	text-align:left;
+}
+.align-center{
+	text-align:center;
+}
+
+a,a:hover,a:active,a:focus,a:link,a:visited{
+	text-decoration:none;
+	display:inline-block;
+	padding:16px;
+	
+}
+.navbar ul li{
+	display:inline-block;
+	list-style:none;
+	padding-top:20px;
+	
+}
+.navbar li{
+	display:inline-block;
+	margin-left:10px;
+}
+.navbar ul li a{
+	color:#fff;
+	padding:10px;
+	font-size:16px;
+	font-weight:400;
+	text-transform:uppercase;
+	position:relative;
+	
+}
+.navbar li a::after{
+	content:'';
+	background-color:#fff;
+	height:3px;
+	position:absolute;
+	width:0;
+	left:0;
+	bottom:0;
+	transition:all 0.7s linear;
+}
+
+.navbar ul li a:hover::after{
+	width:100%;
+}
+.MOb{
+	margin:102px 0 0 145px;
+	width:450px;
+}
+
+.pri-heading{
+	font-size:52px;
+	font-weight:700;
+	margin:120px 0 40px;
+	color:#fff;
+}
+.para{
+	font-size:36px;
+	font-weight:400;
+	margin-bottom:25px;
+	color:#fff;
+}
+.pri-info a i{
+	color:#fff;
+	background-color:black;
+	border-radius:40px;
+	padding:25px 50px 25px 35px;
+	text-transform:uppercase;
+	font-size:17.33px;
+	font-weight:700;
+	font-size:medium;
+	text-align:center;
+}
